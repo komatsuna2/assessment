@@ -1,16 +1,17 @@
-body{
-  background-color: #04a6eb;
-  color: #fdffff;
-  width: 415px;
-  margin-right: auto;
-  margin-left:  auto;
+.navbar {
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
 }
-button {
-  padding: 5px 20px;
-  background-color: #337ab7;
-  color: #fdffff;
-  border-style: none;
+
+#user-name {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
-input {
-  height: 24px;
+
+#user-name:focus {
+    box-shadow: 0 0 0 3px rgba(20, 125, 245, 0.7);
+}
+
+#assessment {
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
